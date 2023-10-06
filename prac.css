@@ -1,0 +1,19 @@
+body {
+    font-family:"Arial",sans-serif;
+    background-color:#fafafa;
+    margin:0;
+    padding:0;
+    color:#555;
+    line-height:1.6;
+}
+
+header{
+    background-color:#ecf;
+    text-align:center;
+    padding:1.5em 0;
+}
+
+img {
+    height:5rem;
+    width:5rem;
+}
