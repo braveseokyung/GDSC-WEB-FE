@@ -36,7 +36,7 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width:25%;
+    width:20rem;
     margin:1rem;
     background-color: lightblue;
 }
@@ -53,9 +53,14 @@ ul{
 
 li{
     list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     height:9rem;
     width:9rem;
+    object-fit:cover;
 }
