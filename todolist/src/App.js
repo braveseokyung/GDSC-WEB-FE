@@ -27,8 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1>Todo List</h1>
-      
-      <div className='nav'>
+      <div class="nav">
         <input
           type="text"
           value={task}
@@ -37,6 +36,7 @@ function App() {
         <button onClick={addTask}>Add Task</button>
         <button className="deleteButton" onClick={deleteAllTask}>Delete All</button>
       </div>
+      
       <ul className="TodoList">
         {tasks.map((t)=>(
           <li className="Todo" key={t.id}>
